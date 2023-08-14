@@ -1,0 +1,131 @@
+body{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family:'Playfair Display', serif;
+}
+
+h1{
+    font-size: 4.5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Tektur', cursive;
+    color:  #4C4569 ;
+}
+
+h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    color:  #4C4569;
+}
+
+h3{
+    color: #282435;
+    font-family: "Roboto", sans-serif;
+ 
+}
+
+p{
+    line-height: 2;
+}
+
+hr {
+    border: dashed #c7cfdf 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+}
+
+.top-container{
+    background-color: #ABBCE0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.profile img{
+    border-radius: 50%;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+
+.parent h3{
+    margin-top: 0;
+}
+
+.personality img{
+    width: 100%;
+    height: auto;
+}
+
+.projects img{
+    width: 45%;
+    height: 45%;
+    transition: transform 500ms; 
+}
+
+.projects img:hover {
+    transform: scale(1.10);
+}
+
+.bottom-container{
+    background-color: #4C4569;
+    padding: 50px 0 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    filter: invert(13%) sepia(19%) saturate(896%) hue-rotate(213deg) brightness(90%) contrast(93%);
+}
+
+
+#mail:hover{
+    filter: invert(86%) sepia(61%) saturate(396%) hue-rotate(352deg) brightness(85%) contrast(93%);
+}
+#linkedin:hover{
+    filter: invert(86%) sepia(61%) saturate(396%) hue-rotate(352deg) brightness(85%) contrast(93%);
+}
+#git:hover{
+    filter: invert(86%) sepia(61%) saturate(396%) hue-rotate(352deg) brightness(85%) contrast(93%);
+}
+#insta:hover{
+    filter: invert(86%) sepia(61%) saturate(396%) hue-rotate(352deg) brightness(85%) contrast(93%);
+}
+
+.copyright{
+    color: #c7cfdf;
+}
+
+@media (max-width: 767px){
+.profile img {
+    scale: 75%;
+}
+
+.parent{
+    width: 75%;
+}
+
+.parent img{
+    width: 100%;
+}
+}
+
+
+
+
