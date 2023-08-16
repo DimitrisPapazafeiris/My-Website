@@ -37,6 +37,8 @@ hr {
     margin: 100px auto;
 }
 
+
+
 .top-container{
     background-color: #ABBCE0;
     position: relative;
@@ -74,6 +76,18 @@ hr {
     height: auto;
 }
 
+#resume{
+    text-align: end;
+}
+
+#resume img{
+    filter: invert(13%) sepia(19%) saturate(896%) hue-rotate(213deg) brightness(90%) contrast(93%);
+}
+
+#resume img:hover{
+    filter: invert(86%) sepia(61%) saturate(396%) hue-rotate(352deg) brightness(85%) contrast(93%); 
+}
+
 .projects img{
     width: 30%;
     height: 30%;
@@ -83,6 +97,8 @@ hr {
 .projects img:hover {
     transform: scale(1.20);
 }
+
+
 
 .bottom-container{
     background-color: #4C4569;
@@ -96,7 +112,6 @@ hr {
     column-gap: 50px;
     filter: invert(13%) sepia(19%) saturate(896%) hue-rotate(213deg) brightness(90%) contrast(93%);
 }
-
 
 #mail:hover{
     filter: invert(86%) sepia(61%) saturate(396%) hue-rotate(352deg) brightness(85%) contrast(93%);
@@ -122,7 +137,11 @@ hr {
     width: 75%;
 }
 
-.parent img{
+.typing img{
+    width: 100%;
+}
+
+.personality img{
     width: 100%;
 }
 }
