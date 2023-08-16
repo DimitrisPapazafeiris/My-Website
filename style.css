@@ -40,7 +40,7 @@ hr {
 .top-container{
     background-color: #ABBCE0;
     position: relative;
-    padding-top: 100px;
+    padding-top: 25px;
 }
 
 .middle-container{
@@ -67,6 +67,7 @@ hr {
 .parent h3{
     margin-top: 0;
 }
+
 
 .personality img{
     width: 100%;
